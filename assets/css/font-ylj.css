@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'FontYLJ';
+  src:  url('../fonts/fontylj.eot?6u6fih');
+  src:  url('../fonts/fontylj.eot?6u6fih#iefix') format('embedded-opentype'),
+    url('../fonts/fontylj.ttf?6u6fih') format('truetype'),
+    url('../fonts/fontylj.woff?6u6fih') format('woff'),
+    url('../fonts/fontylj.svg?6u6fih#fontylj') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ylj-"], [class*=" ylj-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontylj' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ylj-cv:before {
+  content: "\e900";
+}
+.ylj-github:before {
+  content: "\f09b";
+}
+.ylj-envelope:before {
+  content: "\f0e0";
+}
+.ylj-linkedin:before {
+  content: "\f0e1";
+}
+.ylj-stack-overflow:before {
+  content: "\f16c";
+}
